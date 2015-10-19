@@ -1,0 +1,246 @@
+/**
+    STANDARD CSS
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, helvetica, verdana, sans-serif;
+}
+
+div#container {
+    background-color: #000;
+}
+
+.articleNode {
+    border-bottom: 2px solid #000;
+}
+
+.date {
+    display: block;
+    font-style: italic;
+}
+/**
+    RESPONSIVE MEDIA QUERIES
+*/
+@media (max-width: 767px) { 
+    span {
+        font-size: .75em;
+    }
+
+    div#header {
+        height: 50px;
+        width: 100%;
+        background-color: #000;
+        position: fixed;
+    }
+    div#header img {
+        height: 50px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    a.link {
+        display: inline-block;
+        width: 30%;
+        margin: 0 30px 0 0;
+        vertical-align: top;
+    }
+    p.paragraph {
+        display: inline-block;
+        max-width: 65%;
+        margin: 0 0 0 30px;
+        vertical-align: top;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 131px;
+        font-size: 0.8em;
+    }
+    div#content {
+        background-color: #fff;
+        width: 100%;
+        margin: 0 auto;
+        padding: 40px 10px 0 10px;
+    }
+    a.Headlink {
+        font-size: 1.5em;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+    }
+    img.articleImg {
+        max-width: 155px;
+        height: auto;
+    }
+    #loader img {
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+    }
+}
+
+@media (min-width: 768px) { 
+    span {
+        font-size: .85em;
+    }
+
+    div#header {
+        height: 70px;
+        width: 100%;
+        background-color: #000;
+        position: fixed;
+    }
+    div#header img {
+        height: 70px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    a.link {
+        display: inline-block;
+        width: 30%;
+        margin: 0 30px 0 0;
+        vertical-align: top;
+    }
+    p.paragraph {
+        display: inline-block;
+        max-width: 65%;
+        margin: 0 0 0 30px;
+        vertical-align: top;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: .9em;
+        max-height: 202px;
+    }
+    div#content {
+        background-color: #fff;
+        width: 100%;
+        margin: 0 auto;
+        padding: 60px 10px 0 10px;
+    }
+    a.Headlink {
+        font-size: 1.5em;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+    }
+    img.articleImg {
+        max-width: 215px;
+        height: auto;
+    }
+    #loader img {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 992px) { 
+    span {
+        font-size: .9em;
+    }
+
+    div#header {
+        height: 100px;
+        width: 100%;
+        background-color: #000;
+        position: fixed;
+    }
+    div#header img {
+        height:100px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    a.link {
+        display: inline-block;
+        width: 30%;
+        margin: 0 30px 0 0;
+        vertical-align: top;
+    }
+    p.paragraph {
+        display: inline-block;
+        max-width: 65%;
+        margin: 0 0 0 30px;
+        vertical-align: top;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 260px;
+    }
+    div#content {
+        background-color: #fff;
+        width: 90%;
+        margin: 0 auto;
+        padding: 120px 10px 0 10px;
+    }
+    a.Headlink {
+        font-size: 1.5em;
+        color: #333;
+        text-decoration: none;
+    }
+    img.articleImg {
+        max-width: 275px;
+        height: auto;
+    }
+    #loader img {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+    }
+
+}
+
+@media (min-width: 1200px) { 
+    span {
+        font-size: .95em;
+    }
+
+    div#header {
+        height: 100px;
+        width: 100%;
+        background-color: #000;
+        position: fixed;
+    }
+    div#header img {
+        height:100px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    a.link {
+        display: inline-block;
+        width: 30%;
+        margin: 0 30px 0 0;
+        vertical-align: top;
+    }
+    p.paragraph {
+        display: inline-block;
+        max-width: 65%;
+        margin: 0 0 0 30px;
+        vertical-align: top;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 344px;
+    }
+    div#content {
+        background-color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        padding: 120px 10px 0 10px;
+    }
+    a.Headlink {
+        font-size: 1.5em;
+        color: #333;
+        text-decoration: none;
+    }
+    img.articleImg {
+        max-width: 460px;
+        height: auto;
+    }
+    #loader img {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+    }
+}
